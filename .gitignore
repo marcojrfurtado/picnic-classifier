@@ -1,0 +1,10 @@
+.idea/
+
+# Picnic dataset
+data/train/
+data/test/
+data/train.tsv
+data/test.tsv
+data/sample_submission.tsv
+
+*.pyc
