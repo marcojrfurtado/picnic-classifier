@@ -6,5 +6,8 @@ data/test/
 data/train.tsv
 data/test.tsv
 data/sample_submission.tsv
+data/results.tsv
 
 *.pyc
+
+*.pth
