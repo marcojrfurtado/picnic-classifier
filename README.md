@@ -39,13 +39,13 @@ limit of the GPU. You can ignore the warning, since the script will indeed use t
 
 ### Receiving Input/Output error
 
-If you receive the following message
+If you receive the following message while running the third input cell:
 
 ```
 OSError: [Errno 5] Input/output error: '/content/gdrive/My Drive/picnic-classifier/data/train/0.png'
 ```
 
 , first double-check the directory provided in the first cell. 
-If it is correct, simply try re-runing the notebook. 
+If it is correct, simply try re-run the notebook. 
 Even after reporting a successful mount, Google Drive may still throw 
-an error when trying access the data right away.
+an error when trying to access the data right after authenticating.
