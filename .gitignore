@@ -9,5 +9,3 @@ data/sample_submission.tsv
 data/results.tsv
 
 *.pyc
-
-*.pth

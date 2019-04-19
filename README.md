@@ -1,6 +1,6 @@
 # Picnic Classifier
 
-Employ transfer learning to retrain Resnet101 on the Picnic dataset.
+Employ transfer learning to retrain the Resnet101 model on the Picnic dataset. All layers are made trainable, under a limited learning rate.
 
 ## Requirements
 
@@ -25,7 +25,7 @@ Go to `Edit > Notebook Settings > Hardware Acceleration`, and select GPU.
 
 ## Training and labeling test set
 
-Edit the first cell from `train.ipynb` to point out to the correct dataset directory. 
+Edit the first cell from `train.ipynb` to point to the correct dataset directory. 
 By default, it points to `picnic-classifier/data`. 
 Run that cell to mount the Google Drive, you will need to type in an authorization code.
 
